@@ -6068,3 +6068,16 @@ th.hide-for-touch {
   font-family: 'Roboto Condensed', sans-serif;
   color: white;
 }
+
+.zagolovok {color:black;}
+
+@media (max-width:600px) {
+   .need-hide{
+       display:none;
+   }
+}
+
+.full-img {
+    width: 100%;
+    height: 100%;
+}
