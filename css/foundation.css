@@ -6100,3 +6100,26 @@ h5 {
 
 h6 {
   font-size: 1rem; }
+
+
+
+
+input.gsc-input {
+ background: #fff !important; /*скроет логотип и надпись с текстовом поле*/
+ *background: #fff !important; /*IE 7*/
+ }
+
+input.gsc-input:focus {
+ background: #FFF !important;
+ outline: 0 !important;
+}
+/*кнопка поиска*/
+input.gsc-search-button {
+ background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAAyklEQVR4Xn3QsSuEARjH8ce9B/KajP4V/wCrkY3dqOQ/kGwKm5Lu2JQBgVIWXblFKUXKcMpooD5y9fZ0yn23X32W54nf1Mw59uLVqQWD0ZsJ1zLuTEam7gY827LpEbSNJlgEO4a6q7AGlhNc4UG92gbcop3gHeuRhRV8K6rZwUYPWMWXWjXP8GS4AgottNLPg4ayu0Zsg6UENSego2HfG+BQvsu4IxkfSRLN2HOvrWlW6Rwc5PF/MuYCNPuRS7Ab0Y98mo7/U5qK+AF3zt9T2+ohDAAAAABJRU5ErkJggg==) 50% 50% no-repeat #4C4C4C !important;
+ font: normal normal 0px sans-serif !important;
+ color: transparent !important;
+ border: 1px solid #666 !important;
+ height: 32px !important;
+ width: 32px !important;
+ min-width: 32px !important;
+}
